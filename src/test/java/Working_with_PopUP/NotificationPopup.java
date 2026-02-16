@@ -10,7 +10,7 @@ public class NotificationPopup {
 
 	public static void main(String[] args) {
 
-		// Create ChromeOptions object
+		// Create ChromeOptions object 
 		ChromeOptions options = new ChromeOptions();
 
 		// Disable notification popup
