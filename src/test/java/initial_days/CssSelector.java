@@ -16,6 +16,7 @@ public class CssSelector {
 		Thread.sleep(1000);
 		
 		WebElement un = driver.findElement(By.id("email"));
+		WebElement un = driver.findElement(By.xpath("//input[@name='email']"));
 		un.sendKeys("vikramsoni751@gmail.com");
 		
 		Thread.sleep(1000);
