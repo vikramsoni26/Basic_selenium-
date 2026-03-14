@@ -15,7 +15,7 @@ public class window_handles_improved_version {
 	        driver.get("https://the-internet.herokuapp.com/windows");     
 	        
 	        // 2️. Click "Click Here"
-	        String parentWindow = driver.getWindowHandle();
+	 //       String parentWindow = driver.getWindowHandle();
 	        driver.findElement(By.linkText("Click Here")).click();
 	        Set<String> allWindows = driver.getWindowHandles();
 	        

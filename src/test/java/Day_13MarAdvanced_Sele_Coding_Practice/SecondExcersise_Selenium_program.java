@@ -20,8 +20,8 @@ public class SecondExcersise_Selenium_program {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
         // 2️. Click "Click Here"
-		WebElement multiWindowBtn  =driver.findElement(By.xpath("//a[normalize-space()='Click Here']"));
-		multiWindowBtn.click();
+	//	WebElement multiWindowBtn  =driver.findElement(By.xpath("//a[normalize-space()='Click Here']"));
+	//	multiWindowBtn.click();
 		
 		Set<String> allWindowIDs = driver.getWindowHandles();
         // 3️. Handle multiple windows
